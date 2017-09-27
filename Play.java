@@ -48,10 +48,10 @@ import org.apache.spark.sql.*;
 import com.databricks.spark.xml.XmlOptions;
 
 
-public class JavaSparkSQLExample {
+public class Play {
 
 
-	String booksFile = "/users/jackzh/books.xml";
+	String file = "/users/jackzh/Apple.xml";
     String booksFileTag = "book";
 
 	public static class Page implements Serializable {
@@ -111,15 +111,17 @@ public class JavaSparkSQLExample {
 
         DataFrame df = spark.read()
         .format("com.databricks.spark.xml")
-	    .option("rowTag", "book")
-	    .load(booksFile);
+	    .option("rowTag", "page")
+	    .load(File);
 
-		df.select("author", "_id").write()
-	    	.format("com.databricks.spark.xml")
-	    	.option("rootTag", "books")
-	    	.option("rowTag", "book")
-	    	.save("newbooks.xml");
+		// df.select("author", "_id").write()
+	 //    	.format("com.databricks.spark.xml")
+	 //    	.option("rootTag", "books")
+	 //    	.option("rowTag", "book")
+	 //    	.save("newbooks.xml");
+	    df.show();
 
+	    df.printSchema();
 
 
 
