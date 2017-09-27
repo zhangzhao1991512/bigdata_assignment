@@ -70,7 +70,7 @@ public class JavaSparkSQLExample {
 	      return text;
 	    }
 
-	    public void setTitle(int title) {
+	    public void setTitle(String title) {
 	      this.title = title;
 	    }
 	}
@@ -95,7 +95,7 @@ public class JavaSparkSQLExample {
 	    spark.stop();
 	}
 
-	private static void findLinks(SparkSession spark) throws throws AnalysisException {
+	private static void findLinks(SparkSession spark) throws AnalysisException {
 	
 		// HashMap<String, String> options = new HashMap<String, String>();
   //       options.put("rowTag", booksFileTag);
@@ -112,13 +112,13 @@ public class JavaSparkSQLExample {
         DataFrame df = spark.read()
         .format("com.databricks.spark.xml")
 	    .option("rowTag", "book")
-	    .load("books.xml");
+	    .load(booksFile);
 
-	df.select("author", "_id").write()
-	    .format("com.databricks.spark.xml")
-	    .option("rootTag", "books")
-	    .option("rowTag", "book")
-	    .save("newbooks.xml");
+		df.select("author", "_id").write()
+	    	.format("com.databricks.spark.xml")
+	    	.option("rootTag", "books")
+	    	.option("rowTag", "book")
+	    	.save("newbooks.xml");
 
 
 
