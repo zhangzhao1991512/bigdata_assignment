@@ -18,6 +18,7 @@ import org.apache.spark.api.java.function.MapFunction;
 // $example on:create_df$
 // $example on:run_sql$
 // $example on:programmatic_schema$
+import org.apache.spark.sql.Dataframe;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 // $example off:programmatic_schema$
@@ -40,19 +41,19 @@ import org.apache.spark.sql.AnalysisException;
 
 // $example on:untyped_ops$
 // col("...") is preferable to df.col("...")
-import static org.apache.spark.sql.functions.col;
+// import static org.apache.spark.sql.functions.col;
 // $example off:untyped_ops$
 
 import org.apache.spark.SparkContext;  //?????????????????????
 import org.apache.spark.sql.*;
-import com.databricks.spark.xml.XmlOptions;
+// import com.databricks.spark.xml.XmlOptions;
 
 
 public class Play {
 
 
-	String file = "/users/jackzh/Apple.xml";
-    String booksFileTag = "book";
+	static String file = "/users/jackzh/Apple.xml";
+   static String booksFileTag = "book";
 
 	public static class Page implements Serializable {
 		String title;
@@ -70,8 +71,8 @@ public class Play {
 	      return text;
 	    }
 
-	    public void setTitle(String title) {
-	      this.title = title;
+	    public void setText(String text) {
+	      this.text = text;
 	    }
 	}
 
@@ -109,10 +110,7 @@ public class Play {
 
 
 
-        DataFrame df = spark.read()
-        .format("com.databricks.spark.xml")
-	    .option("rowTag", "page")
-	    .load(File);
+       Dataset<Row> df = spark.read().format("com.databricks.spark.xml").option("rowTag", "page").load(file);
 
 		// df.select("author", "_id").write()
 	 //    	.format("com.databricks.spark.xml")
