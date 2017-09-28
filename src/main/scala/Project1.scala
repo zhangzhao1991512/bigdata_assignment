@@ -14,6 +14,7 @@ object Project1 {
       .load(appleFile)
 
     df.select("title").show()
+	df.select("revision.text").show()
 	//val selectedData = df.select("author", "_id")
     //selectedData.write
       //.format("com.databricks.spark.xml")
