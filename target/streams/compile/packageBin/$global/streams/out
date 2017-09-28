@@ -1,11 +1,15 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /users/jackzh/bigdata_assignment/target/scala-2.11/simple-project_2.11-1.0.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /users/jackzh/bigdata_assignment/target/scala-2.11/project-1_2.11-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/SimpleApp$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/SimpleApp$$anonfun$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/SimpleApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleApp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Project1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/Project1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Project1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /users/jackzh/bigdata_assignment/target/scala-2.11/classes/Project1$.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
