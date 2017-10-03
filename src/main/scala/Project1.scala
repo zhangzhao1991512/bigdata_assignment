@@ -12,7 +12,7 @@ def getLinks (textIn: String) : List[String] = textIn match {
 		val first_link_empty = "\\[\\[\\s*\\|+.*\\]\\]".r //used to filter out entries that are blank before the pipe
 		val extra = "\\|.*".r //used to remove any entries after the pipe
 
-		val category = "Category:".r
+		val category = "\\[\\[Category:".r
 
 		//filter out all invalid cases
 		val matchList = for {
