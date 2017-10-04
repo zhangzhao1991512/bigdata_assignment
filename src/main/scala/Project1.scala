@@ -39,7 +39,17 @@ object Project1 {
 	val udfGetLinks = udf[List[String], String](getLinks)
 
 	def main(args: Array[String]) {
-		val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/Apple.xml" // Should be some file on your system
+		var startTime = System.nanoTime
+
+		//val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/Apple.xml" // Should be some file on your system
+		val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/enwiki-20110115-pages-articles1.xml" // Should be some file on your system
+		//val appleFile = "/users/jackzh/bigdata_assignment/enwiki-20110115-pages-articles1.xml"
+
+//		val conf = new SparkConf()
+//		.setMaster("local[2]")
+//		.setExecutor.memory("5g")
+
+
 		val spark = SparkSession.builder.appName("Project1").getOrCreate()
   
 		import spark.implicits._
@@ -50,25 +60,28 @@ object Project1 {
                 .option("excludeAttribute", true)
 		.load(appleFile)
 	
-		df0.printSchema()
+		//df0.printSchema()
 
 
 		val df1 =  df0.select("title","revision.text")
-		df1.show()
+		//df1.show()
 
 		val df2 = df1.withColumn("linkList", udfGetLinks('text))
-		df2.show()
-		df2.select("linkList").show()
-		df2.printSchema()	
+		//df2.show()
+		//df2.select("linkList").show()
+		//df2.printSchema()	
 		val df3 = df2.withColumn("links",explode(df2("linkList")))
-		df3.show()
+		//df3.show()
 
                 val df4 = df3.select("title", "links")
 		df4.write
                 .format("com.databricks.spark.csv")
 		.option("delimiter","\t")
 		.option("path","/users/jackzh/bigdata_assignment")
-		.save("appleLinks.csv")
+		.save("clusterLinks3.csv")
+
+		var timeElapsed = System.nanoTime - startTime
+		printf("Time elapsed = %d\n", timeElapsed)
 	
 		spark.stop()
 	}
