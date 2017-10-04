@@ -42,8 +42,12 @@ object Project1 {
 		var startTime = System.nanoTime
 
 		//val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/Apple.xml" // Should be some file on your system
-		val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/enwiki-20110115-pages-articles1.xml" // Should be some file on your system
+		//val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/enwiki-20110115-pages-articles1.xml" // Should be some file on your system
+		//val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/q4/enwiki-20110115-pages-articles1.xml" // Should be some file on your system	
 		//val appleFile = "/users/jackzh/bigdata_assignment/enwiki-20110115-pages-articles1.xml"
+
+		val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/wholeRep2/enwiki-20110115-pages-articles_whole.xml" // Should be some file on your system
+
 
 //		val conf = new SparkConf()
 //		.setMaster("local[2]")
@@ -74,11 +78,12 @@ object Project1 {
 		//df3.show()
 
                 val df4 = df3.select("title", "links")
-		df4.write
-                .format("com.databricks.spark.csv")
-		.option("delimiter","\t")
-		.option("path","/users/jackzh/bigdata_assignment")
-		.save("clusterLinks3.csv")
+		df4.write.option("sep","\t").csv("hdfs://clnode163.clemson.cloudlab.us:8020/p1rep2/out_dir6_whole")
+	//	df4.write
+        //        .format("com.databricks.spark.csv")
+	//	.option("delimiter","\t")
+	//	.option("path","hdfs://clnode163.clemson.cloudlab.us:8020/p1")
+	//	.save("clusterLinks3.csv")
 
 		var timeElapsed = System.nanoTime - startTime
 		printf("Time elapsed = %d\n", timeElapsed)
