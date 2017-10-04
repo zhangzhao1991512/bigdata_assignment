@@ -50,12 +50,6 @@ object Project1 {
                 .option("excludeAttribute", true)
 		.load(appleFile)
 	
-		//val selectedData = df.select("author", "_id")
-	    //selectedData.write
-	      //.format("com.databricks.spark.xml")
-	      //.option("rootTag", "books")
-	      //.option("rowTag", "book")
-	      //.save("newbooks.xml") 
 		df0.printSchema()
 
 
@@ -69,6 +63,13 @@ object Project1 {
 		val df3 = df2.withColumn("links",explode(df2("linkList")))
 		df3.show()
 
+                val df4 = df3.select("title", "links")
+		df4.write
+                .format("com.databricks.spark.csv")
+		.option("delimiter","\t")
+		.option("path","/users/jackzh/bigdata_assignment")
+		.save("appleLinks.csv")
+	
 		spark.stop()
 	}
 }
