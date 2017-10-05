@@ -1,0 +1,30 @@
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.udf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.explode[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:39:20: not found: value udf[0m
+[0m[[0m[31merror[0m] [0m[0m	val udfGetLinks = udf[List[String], String](getLinks)[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:39:46: missing argument list for method getLinks in object Project1[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `getLinks _` or `getLinks(_)` instead of `getLinks`.[0m
+[0m[[0m[31merror[0m] [0m[0m	val udfGetLinks = udf[List[String], String](getLinks)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/Project1.scala:44:15: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m		val spark = SparkSession.builder.appName("Project1").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m		            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/SimpleApp.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/users/jackzh/bigdata_assignment/src/main/scala/SimpleApp.scala:6:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder.appName("Simple Application").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
