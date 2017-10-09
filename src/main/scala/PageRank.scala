@@ -61,7 +61,11 @@ object PageRank {
     }
 
     val output = ranks.collect()
-    output.foreach(tup => println(tup._1 + " has rank: " + tup._2 + "."))
+//    output.write.text("hdfs://clnode140.clemson.cloudlab.us:8020/p1/ranksOut/")
+//	output.saveAsTextFile("hdfs://clnode140.clemson.cloudlab.us:8020/p1/ranksOut/")
+    ctx.parallelize(output).saveAsTextFile("hdfs://clnode140.clemson.cloudlab.us:8020/p1/ranksOut10/")
+//    output.write.option("sep","\t").text("hdfs://clnode163.clemson.cloudlab.us:8020/p1/out10/")
+//    output.foreach(tup => println(tup._1 + " has rank: " + tup._2 + "."))
 
     ctx.stop()
   }

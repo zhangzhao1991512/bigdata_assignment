@@ -46,7 +46,7 @@ object Project1 {
 		//val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/q4/enwiki-20110115-pages-articles1.xml" // Should be some file on your system	
 		//val appleFile = "/users/jackzh/bigdata_assignment/enwiki-20110115-pages-articles1.xml"
 
-		val appleFile = "hdfs://clnode163.clemson.cloudlab.us:8020/p1/enwiki-20110115-pages-articles_whole.xml" // Should be some file on your system
+		val appleFile = "hdfs://clnode140.clemson.cloudlab.us:8020/p1/enwiki-20110115-pages-articles_whole.xml" // Should be some file on your system
 
 
 //		val conf = new SparkConf()
@@ -79,7 +79,7 @@ object Project1 {
 
                 val df4 = df3.select("title", "links")
 //                df4.write.option("sep","\t").csv("alluxio://clnode163.clemson.cloudlab.us:19998/out_8/")
-		df4.write.option("sep","\t").csv("hdfs://clnode163.clemson.cloudlab.us:8020/p1/out10/")
+		df4.write.option("sep","\t").csv("hdfs://clnode140.clemson.cloudlab.us:8020/p1/out10/")
 	//	df4.write
         //        .format("com.databricks.spark.csv")
 	//	.option("delimiter","\t")
