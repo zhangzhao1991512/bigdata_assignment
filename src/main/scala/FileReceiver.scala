@@ -10,33 +10,34 @@ import org.apache.spark.sql.types._
 
 object FileReceiver {
   def main(args: Array[String]) {
-    //val schema = StructType(
-      //StructField("article", StringType, false) ::
-      //StructField("rank", DoubleType, false) :: Nil)
 
-//	val sparkConf = new SparkConf().setAppName("FileReceiver")
-//	val spark = new SparkContext(sparkConf)
-	val spark = SparkSession.builder.appName("FileReceiver").getOrCreate()
+      val spark = SparkSession.builder.appName("FileReceiver").getOrCreate()
 
 
-    // Use the business object that describes the dataset
-    //case class Rank(article: String, rank: Double)
-
-    //import org.apache.spark.sql.Encoders
-    //schema = Encoders.product[Rank].schema
-
-      val userSchema = new StructType().add("article", "string").add("rank", "double")
+      val defaultSchema = new StructType().add("value","string")
 
       val rank = spark.
-	readStream.
-        schema(userSchema).
-	text("hdfs://clnode140.clemson.cloudlab.us:8020/p1/q10input/")
-//      textFile("hdfs://clnode140.clemson.cloudlab.us:8020/p1/q10input/")
+        readStream.
+	schema(defaultSchema).
+        text("hdfs://clnode140.clemson.cloudlab.us:8020/p1/q10input/")
 
-//    val record = rank.flatMap(_.split(","))
-//    val large_ranks = record.filter("rank <= 0.5")
+      
+ //     val rank = spark.
+ //       read.
+ //       text("hdfs://clnode140.clemson.cloudlab.us:8020/p1/q10input/")
 
-//    println(rank.isStreaming)
+	rank.printSchema()
+	
+// val largeRanks = rank.filter("rank <= 0.5")
+
+    println(rank.isStreaming)
+
+     val query = rank.writeStream
+        .outputMode("append")
+        .format("console")
+        .start()
+
+     query.awaitTermination()
 
   }
 }
