@@ -4,7 +4,7 @@
 		module="bigdata_assignment-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170927173903"
+		publication="20171008182436"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

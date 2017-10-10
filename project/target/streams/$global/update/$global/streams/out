@@ -12741,60 +12741,57 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.0.1!zinc-persist_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.0.1!zinc-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.0.1!zinc-ivy-integration_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.0.1!zinc-compile-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.0.1!zinc_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.0.1!util-tracking_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.0.1!zinc-classfile_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.0.1!zinc-classpath_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-agent;1.0.2!test-agent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.0!sjson-new-murmurhash_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.0.1!util-cache_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.0.2!tasks_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.0.2!main-settings_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.0!launcher-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.0.1!zinc-apiinfo_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.0.2!testing_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.0.1!util-logging_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.0.2!librarymanagement-ivy_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#command_2.12;1.0.2!command_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.0.2!librarymanagement-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.0.2!completion_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.0.1!compiler-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd!ivy.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.0.2!task-system_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.0.2!core-macros_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.0.1!util-relation_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.0.1!zinc-persist_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#run_2.12;1.0.2!run_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.0.2!collections_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.0.2!core-macros_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.0.1!zinc-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.0.1!util-cache_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.0.1!zinc-compile-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.0.1!zinc-classfile_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd!ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.0.1!zinc_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.0.2!task-system_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.0!launcher-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.0.2!tasks_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.0.2!protocol_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.0.1!zinc-classpath_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.0.1!zinc-ivy-integration_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.0.1!util-relation_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.0.1!util-logging_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.0.2!librarymanagement-ivy_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.0.1!util-tracking_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.0.1!util-control_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.0.1!zinc-apiinfo_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.0.2!librarymanagement-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.0.1!compiler-interface.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
@@ -12846,9 +12843,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
@@ -12901,28 +12895,16 @@
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
@@ -12930,754 +12912,766 @@
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (281ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (250ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (287ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (235ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (241ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (252ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.0.2!main-settings_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.0.1!util-position_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.0.2!completion_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#run_2.12;1.0.2!run_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (291ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.0!sjson-new-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#command_2.12;1.0.2!command_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (295ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.0.2!collections_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.0!sjson-new-scalajson_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (254ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (247ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (297ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (248ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (256ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#io_2.12;1.0.1!io_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.0.2!testing_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.0.2!protocol_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.0!sjson-new-core_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (254ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.0.1!zinc-compile_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (244ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbt;1.0.2!sbt.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-interface;1.0.1!util-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#io_2.12;1.0.1!io_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (301ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (299ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.0.1!zinc-compile_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main_2.12;1.0.2!main_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbt;1.0.2!sbt.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.0.2!actions_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.0.2!logic_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (256ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (256ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (256ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (255ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.0.2!actions_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (304ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (306ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main_2.12;1.0.2!main_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (263ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (300ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (304ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (307ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (301ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (308ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (300ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /users/jackzh/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (262ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (306ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (276ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (312ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (262ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (269ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (312ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (269ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (312ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (317ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (318ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (319ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (323ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (322ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (323ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (320ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (316ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (324ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (271ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (287ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (273ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (276ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (273ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (282ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (321ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (275ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (279ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (280ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (317ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (320ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (317ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (278ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (279ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (296ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (282ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (312ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (279ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (292ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (286ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (319ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (285ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (285ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (294ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (285ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (294ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (295ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (300ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (296ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (324ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.0!sjson-new-murmurhash_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-agent;1.0.2!test-agent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (327ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-core//2.8.1/test-jars/log4j-core-tests.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (324ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (330ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (330ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (301ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (325ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (327ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (327ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (327ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (331ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (330ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (324ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (302ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (302ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (302ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (304ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (315ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (320ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0msettings loaded (330ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (328ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (328ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (336ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (334ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (331ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (76ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/users/jackzh/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.2/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (29ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (29ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /users/jackzh/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 3272ms :: artifacts dl 511ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-core/2.8.1/test-jars/log4j-core-tests.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-core//2.8.1/test-jars/log4j-core-tests.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-core/2.8.1/test-jars/log4j-core-tests.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /users/jackzh/.ivy2/local/org.apache.logging.log4j/log4j-core//2.8.1/test-jars/log4j-core-tests.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-tests.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar) (1030ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 4144ms :: artifacts dl 2526ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#bigdata_assignment-build;0.1-SNAPSHOT compile produced in /users/jackzh/bigdata_assignment/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-bigdata_assignment-build-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#bigdata_assignment-build;0.1-SNAPSHOT runtime produced in /users/jackzh/bigdata_assignment/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-bigdata_assignment-build-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#bigdata_assignment-build;0.1-SNAPSHOT test produced in /users/jackzh/bigdata_assignment/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-bigdata_assignment-build-test.xml[0m
@@ -13689,5 +13683,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#bigdata_assignment-build;0.1-SNAPSHOT plugin produced in /users/jackzh/bigdata_assignment/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-bigdata_assignment-build-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#bigdata_assignment-build;0.1-SNAPSHOT pom produced in /users/jackzh/bigdata_assignment/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-bigdata_assignment-build-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#bigdata_assignment-build;0.1-SNAPSHOT scala-tool produced in /users/jackzh/bigdata_assignment/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-bigdata_assignment-build-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (3272ms resolve - 511ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (4144ms resolve - 2526ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
