@@ -46,36 +46,21 @@ def getRank(textIn: String) : Double = textIn match {
       val rank = spark.
         readStream.
 	schema(defaultSchema).
-        text("hdfs://clnode140.clemson.cloudlab.us:8020/p1/q10input/")
-
-//    println(rank.isStreaming)
-
-//    val rankWithTitles = rank.withColumn("title", udfGetTitles(col("value")))
+        text("hdfs://clnode140.clemson.cloudlab.us:8020/p1/q11ranksFinalFinal/")
+    
     val rankWithTitles = rank.withColumn("title", udfGetTitles('value))
     val titleAndRanks = rankWithTitles.withColumn("rank", udfGetRanks('value))
 
     val filterRanks = titleAndRanks.filter("rank > 0.5")
-/*
-1. convert dataFrame into dataFrame of two columns (column 1 is article name, column 2 is rank) do this with udf
-2. filter out articles with rank less than (or equal to) 0.5
-3. make finalDataFrame by selecting desired columns from intermediate
-*/
 
-
-  /*   val query = filterRanks.select("title","rank").writeStream
-        .outputMode("append")
-        .format("console")
-        .start()
-*/
-     val query = filterRanks.select("title","rank").writeStream
+    val query = filterRanks.select("title","rank").writeStream
         .outputMode("append")
         .format("csv")
 	.option("sep","\t")
         .option("checkpointLocation", "hdfs://clnode140.clemson.cloudlab.us:8020/p1/checpointTest/")
-	.option("path", "hdfs://clnode140.clemson.cloudlab.us:8020/p1/q10outputTest2/")
+	.option("path", "hdfs://clnode140.clemson.cloudlab.us:8020/p1/q11outputFinalFinal/")
 	.start()
 
      query.awaitTermination()
-
   }
 }
